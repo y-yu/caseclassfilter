@@ -22,13 +22,13 @@ val strings = A(
   a = "This will be filtered in.\n",
   b = 1,
   c = 3.14,
-  d = Seq("These", "would", "be", "collected", "too", "\n")
+  d = Seq("These", "would", "be", "collected", "too.", "\n")
 ).filterFieldType[String]
 
 println(strings.mkString(" "))
 // Output:
 //   This will be filtered in.
-//    These would be collected too
+//    These would be collected too.
 ```
 
 ## See also

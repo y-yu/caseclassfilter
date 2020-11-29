@@ -75,4 +75,15 @@ class CaseClassFilterTest extends AnyFlatSpec with Diagrams {
 
     assert(actual.length === 1)
   }
+
+  it should "throw a compile error if the case class has a `Float` field" in {
+    case class Dummy(
+      a: String,
+      b: Float
+    )
+
+    assertDoesNotCompile(
+      """Dummy("a", (3.14).toFloat).filterFieldType[Target]""".stripMargin
+    )
+  }
 }
