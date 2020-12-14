@@ -33,4 +33,4 @@ println(strings.mkString(" "))
 
 ## See also
 
-- [狙った型を持つフィールドの値を網羅的に集めるScalaマクロ](https://zenn.dev/articles/c4d53a534f45e1/) (Japanese)
+- [狙った型を持つフィールドの値を網羅的に集めるScalaマクロ](https://zenn.dev/yyu/articles/c4d53a534f45e1) (Japanese)
