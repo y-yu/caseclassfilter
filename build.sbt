@@ -6,7 +6,7 @@ lazy val root = (project in file("."))
     description := "Case class fields filter by the type",
     homepage := Some(url("https://github.com/y-yu")),
     licenses := Seq("MIT" -> url(s"https://github.com/y-yu/caseclassfilter/blob/master/LICENSE")),
-    scalaVersion := "2.13.4",
+    scalaVersion := "2.13.10",
     scalacOptions ++= Seq(
       "-deprecation",
       "-encoding", "UTF-8",
