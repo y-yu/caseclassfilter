@@ -15,7 +15,7 @@ lazy val root = (project in file("."))
       "-unchecked"
     ),
     libraryDependencies ++= Seq(
-      "com.chuusai" %% "shapeless" % "2.3.3",
+      "com.chuusai" %% "shapeless" % "2.3.10",
       "org.scalatest" %% "scalatest" % "3.2.3" % "test",
     )
   )
